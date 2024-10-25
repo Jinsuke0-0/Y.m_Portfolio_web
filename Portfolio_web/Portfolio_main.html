@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yusuke Masuyama's Website</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>Yusuke's Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#projects">My Projects</a></li>
+                <li><a href="#Qualification">Qualification</a></li>
+                <li><a href="#contact">Contact address</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="Home_css">
+        <h2>Home</h2>
+        <p>Thank you for coming !!</p>
+        </div>
+            
+    </section>
+    
+
+    <section id="about">
+        <h2>Profile</h2>
+        <ul>
+            <li>Birthday : 2002年5月3日</li>
+            <li>From     : 青森県</li>
+            <li>University : 千葉工業大学 社会システム科学部 経営情報科学科 (2021年度学科代表(学生))</li>
+            <li><a href = "https://www.amazon.co.jp/dp/B0DHKQ3QTM?ref_=cm_sw_r_cp_ud_dp_MKB7TVEEB6G53NZ39428&starsLeft=1&skipTwisterOG=1">著書:30分でワーホリの概要とリアルを掴む本 2024</a><//li>
+
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My projects</h2>
+            <li><a href ="Portfolio_Programming.html">Programming-Experience</a></li>
+            <li><a href ="Portfolio_Project.html">Project-Experience</a></li>
+    </section>
+
+    <section id="Qualification">
+        <h2>Qualification</h2>
+        <div class="activities">
+        <ul>
+            <li>日本語ワープロ検定２級</li>
+            <li>ホームページ作成検定1級</li>
+            <li>全国経理教育協会主催簿記能力検定2級</li>
+            <li>情報処理検定ビジネス情報部門２級</li>
+            <li>ファイナンシャル・プランニング技能検定3級</li>
+            <li>実用英語技能検定準２級</li>
+            <li>普通自動車第一種免許</li>
+            <li>普通自動車二輪免許</li>
+            
+        </div>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact address ※調整中</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">名前:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">メールアドレス:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">メッセージ:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">送信</button>
+        </form>
+    </section>
+
+</body>
+</html>
